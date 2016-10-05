@@ -1,0 +1,8 @@
+C:\Users\GulgunOzer\AppData\Local\Temporary Projects\NASA\bin\Release\NASA.exe
+C:\Users\GulgunOzer\AppData\Local\Temporary Projects\NASA\bin\Release\NASA.pdb
+C:\Users\GulgunOzer\AppData\Local\Temporary Projects\NASA\obj\x86\Release\NASA.exe
+C:\Users\GulgunOzer\AppData\Local\Temporary Projects\NASA\obj\x86\Release\NASA.pdb
+C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\NASA\bin\Release\NASA.exe
+C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\NASA\bin\Release\NASA.pdb
+C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\NASA\obj\x86\Release\NASA.exe
+C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\NASA\obj\x86\Release\NASA.pdb

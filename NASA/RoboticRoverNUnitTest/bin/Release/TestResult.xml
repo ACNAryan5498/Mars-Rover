@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Release\RoboticRoverNUnitTest.exe" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-02-12" time="22:52:20">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.34209" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Release" machine-name="GULGUN" user="GulgunOzer" user-domain="Gulgun" />
+  <culture-info current-culture="tr-TR" current-uiculture="en-GB" />
+  <test-suite type="Assembly" name="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Release\RoboticRoverNUnitTest.exe" executed="True" result="Failure" success="False" time="0.222" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="RoboticRoverNUnitTest" executed="True" result="Failure" success="False" time="0.194" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestFixtureNasa" executed="True" result="Failure" success="False" time="0.191" asserts="0">
+            <results>
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.BlurringTheBounries" executed="True" result="Success" success="True" time="0.097" asserts="1" />
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.MoveFirstRover" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.MoveSecondRover" executed="True" result="Failure" success="False" time="0.051" asserts="1">
+                <failure>
+                  <message><![CDATA[  String lengths are both 5. Strings differ at index 0.
+  Expected: "5 1 E"
+  But was:  "1 3 N"
+  -----------^
+]]></message>
+                  <stack-trace><![CDATA[at RoboticRoverNUnitTest.TestFixtureNasa.MoveSecondRover() in C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\TestFixture.cs:line 52
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

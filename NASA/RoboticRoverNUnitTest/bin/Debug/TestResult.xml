@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Debug\RoboticRoverNUnitTest.exe" total="3" errors="0" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-02-12" time="22:42:06">
+  <environment nunit-version="2.5.10.11092" clr-version="4.0.30319.34209" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Debug" machine-name="GULGUN" user="GulgunOzer" user-domain="Gulgun" />
+  <culture-info current-culture="tr-TR" current-uiculture="en-GB" />
+  <test-suite type="Assembly" name="C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\bin\Debug\RoboticRoverNUnitTest.exe" executed="True" result="Failure" success="False" time="78.580" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="RoboticRoverNUnitTest" executed="True" result="Failure" success="False" time="78.566" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="TestFixtureNasa" executed="True" result="Failure" success="False" time="78.564" asserts="0">
+            <results>
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.BlurringTheBounries" executed="True" result="Failure" success="False" time="43.395" asserts="1">
+                <failure>
+                  <message><![CDATA[  String lengths are both 5. Strings differ at index 2.
+  Expected: "5 3 E"
+  But was:  "5 1 E"
+  -------------^
+]]></message>
+                  <stack-trace><![CDATA[at RoboticRoverNUnitTest.TestFixtureNasa.BlurringTheBounries() in C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\TestFixture.cs:line 63
+]]></stack-trace>
+                </failure>
+              </test-case>
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.MoveFirstRover" executed="True" result="Success" success="True" time="19.498" asserts="1" />
+              <test-case name="RoboticRoverNUnitTest.TestFixtureNasa.MoveSecondRover" executed="True" result="Failure" success="False" time="15.429" asserts="1">
+                <failure>
+                  <message><![CDATA[  String lengths are both 5. Strings differ at index 0.
+  Expected: "5 1 E"
+  But was:  "1 3 N"
+  -----------^
+]]></message>
+                  <stack-trace><![CDATA[at RoboticRoverNUnitTest.TestFixtureNasa.MoveSecondRover() in C:\Users\GulgunOzer\Desktop\gorkem\projects\NASA\RoboticRoverNUnitTest\TestFixture.cs:line 51
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
